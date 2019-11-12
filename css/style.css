@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+img {
+  object-fit: cover;
+  max-width: 100%;
+}
 body {
   font: 15px arial, sans-serif;
   margin-left: auto;
@@ -77,6 +81,7 @@ display: grid;
 grid-template-areas: "turkshead brunswick" "bundobust reliance";
 grid-column-gap: 20px;
 grid-row-gap: 20px;
+grid-template-columns: repeat( 2, 50% );
 }
 
 .bestbars div {
@@ -151,3 +156,8 @@ grid-row-gap: 20px;
 .support {
   object-fit: fill;
 }
+
+/* .responsive {
+  max-width: 100%;
+  height: auto;
+} */
