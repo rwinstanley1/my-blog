@@ -77,24 +77,82 @@ ul, ol {
 }
 
 .bestbars {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.turkshead,
+.brunswick,
+ {
+  width: 100%;
+  margin: .5rem;
+  flex: 1 1 0;
+  width: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .bestbars {
+    flex-wrap: wrap;
+  }
+}
+
+.bestbars2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.bundobust
+.reliance
+ {
+  width: 100%;
+  margin: .5rem;
+  flex: 1;
+}
+
+@media screen and (max-width: 700px) {
+    .bestbars2 {
+    flex-wrap: wrap;
+  }
+}
+
+/* .bestbars {
 display: grid;
 grid-template-areas: "turkshead brunswick" "bundobust reliance";
 grid-column-gap: 20px;
-grid-row-gap: 20px;
-grid-template-columns: repeat( 2, 50% );
-}
+grid-template-columns: 50% 50%;
+} */
+
+/* @media screen and (max-width: 700px) {
+  .bestbars {
+  display: grid;
+  grid-template-areas: "turkshead brunswick" "bundobust reliance";
+  grid-column-gap: 20px;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  }
+} */
 
 .bestbars div {
   background-color: #F5F5F5;
   border-radius: 25px;
   padding: 20px;
+  margin: 20px;
 }
+
+.bestbars2 div {
+  background-color: #F5F5F5;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 20px;
 
 .turkshead {
   grid-area: "turkshead";
 }
 
-.brunswick {
+.brunswick
   grid-area: "brunswick";
 }
 
