@@ -1,0 +1,149 @@
+body {
+  font: 15px arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#2F4F4F;
+}
+
+section {
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 20px;
+}
+
+header {
+  background-image: url("../images/littleleedsbeerhouse.jpeg");
+  height: 180px;
+  padding: 40px 0 0 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  background-color:  #f0f0f0;
+  padding-top: 180px;
+}
+
+
+h1 {
+  color: #2F4F4F;
+  font-weight: bolder;
+  font-size: 60px;
+  text-shadow: 5px 5px #fff;
+  text-align: center;
+}
+
+h2 {
+  color: #20B2AA;
+  font-weight: bolder;
+  font-size: 40px;
+  border-style: solid;
+  border-width: 5px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+h4 {
+  color: #2F4F4F;
+  font-weight: bolder;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+.myimage {
+       display:block;
+       margin-left: auto;
+       margin-right: auto;
+   }
+
+.bestbits{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.bestbars {
+display: grid;
+grid-template-areas: "turkshead brunswick" "bundobust reliance";
+grid-column-gap: 20px;
+grid-row-gap: 20px;
+}
+
+.bestbars div {
+  background-color: #F5F5F5;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.turkshead {
+  grid-area: "turkshead";
+}
+
+.brunswick {
+  grid-area: "brunswick";
+}
+
+.bundobust {
+  grid-area: "bundobust";
+}
+
+.reliance {
+  grid-area: "reliance";
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-areas: "item4 item1" "item5 item2" "item6 item3";
+  grid-column-gap: 30px;
+  grid-row-gap: 20px;
+}
+
+.gridcontainer div {
+  background-color: #F5F5F5;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+#item1{
+  grid-area: "item1";
+}
+
+#item2{
+  grid-area: "item2";
+}
+
+#item3{
+  grid-area: "item3";
+}
+
+#item4{
+  grid-area: "item4";
+}
+
+#item5{
+  grid-area: "item5";
+}
+
+#item6{
+  grid-area: "item6";
+}
+
+.bottleshops {
+  display: grid;
+  grid-template-areas: "blank1 bslist blank2";
+  grid-column-gap: 30px;
+  grid-row-gap: 20px;
+  background-color: #F5F5F5;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.support {
+  object-fit: fill;
+}
