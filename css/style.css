@@ -83,7 +83,7 @@ ul, ol {
 }
 
 .turkshead,
-.brunswick,
+.brunswick
  {
   width: 100%;
   margin: .5rem;
@@ -103,7 +103,8 @@ ul, ol {
 }
 
 .bundobust,
-.reliance{
+.reliance
+  {
   width: 100%;
   margin: .5rem;
 }
@@ -180,8 +181,3 @@ ul, ol {
 .support {
   object-fit: fill;
 }
-
-/* .responsive {
-  max-width: 100%;
-  height: auto;
-} */
